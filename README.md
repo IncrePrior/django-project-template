@@ -122,10 +122,3 @@ for generated projects. Both images are alpine based and contain python3, pip an
 packages. The images are published to [repository container registry](https://gitlab.com/thorgate-public/django-project-template/container_registry) and also to [docker hub](https://hub.docker.com/u/thorgate).
 
 The images are built in CI (from default branches only) and also updated every day via schedules.
-
-**Project CI Image**
-
-- [Dockerfile-ci](./utils/Dockerfile-ci)
-- Image in repository registry: `registry.gitlab.com/thorgate-public/django-project-template/ci`
-- Image in docker hub: `thorgate/django-template-ci`
-  - [see online](https://hub.docker.com/r/thorgate/django-template-ci)
